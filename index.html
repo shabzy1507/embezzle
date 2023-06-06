@@ -25,18 +25,23 @@
         justify-content: center;
       }
 
-      .vid {
+      /* .vid {
         position: absolute;
         z-index: -1;
         bottom: 0;
-      }
+      } */
       .content {
         color: #fff;
         position: absolute;
         bottom: 0;
         transform: translateX(-50%);
       }
-      @media (min-aspect-ratio: 16/9) {
+      .hero {
+        background-image: url(GTDS9746.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      /* @media (min-aspect-ratio: 16/9) {
         .vid {
           width: 100%;
           height: auto;
@@ -47,15 +52,15 @@
           width: auto;
           height: 100%;
         }
-      }
+      } */
     </style>
     <title>Dad</title>
   </head>
   <body>
     <div class="hero">
-      <video autoplay loop muted plays-inline preload="auto" class="vid">
+      <!-- <video autoplay loop muted plays-inline preload="auto" class="vid">
         <source src="GTDS9746.MP4" type="video/MP4" />
-      </video>
+      </video> -->
       <div class="content">
         <pre>
         DEATH
